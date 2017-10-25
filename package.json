@@ -1,0 +1,25 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "upload": "server.js"
+  },
+  "scripts": {
+    "start": "node bin/server",
+    "test": "nodemon bin/server"
+  },
+  "author": "Renan Roberto <renanroberto1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "busboy": "^0.2.14",
+    "connect-busboy": "0.0.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "multer": "^1.3.0",
+    "path": "^0.12.7"
+  }
+}
